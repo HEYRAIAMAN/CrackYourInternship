@@ -1,11 +1,9 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        
         int n = nums.size();
         if(n==0 || n==1)
             return;
-        
         int left=0, right=0;
         int temp;
         while(right < n){
@@ -18,12 +16,5 @@ public:
                 nums[right] = temp;
                 ++left;
                 ++right;
-            }
-            
-        }
-        
-            
-        }
-        
-    
-};
+            }  
+        } } };
