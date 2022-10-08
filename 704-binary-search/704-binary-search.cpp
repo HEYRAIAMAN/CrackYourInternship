@@ -1,7 +1,6 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) { 
-        int n = sizeof(nums)/sizeof(nums[0]);
         int first = 0;
         int last = nums.size()-1;
 
